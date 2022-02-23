@@ -1,0 +1,73 @@
+@import url(https://fonts.google.com/specimen/Fira+Sans?preview.size=79);
+@font-face{ font-family: fira-sans;
+                        src: url(Fonts/FiraSans-Bold.ttf); 
+                    }
+
+h1{
+    font-size: 80px;
+    color: #644321;
+    font-family: fira-sans;
+    margin: auto;
+    text-align: center;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: white;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    position: relative; top: -40px;
+}
+
+.btnAdd{
+    background-image: url("images/mainCookie.PNG");
+    background-size: cover;
+    width: 340px;
+    height: 300px;
+    border: none;
+}
+
+.btnAdd:hover{
+    width: 350px;
+    height: 310px;
+    border:2px solid #021a40;
+}
+
+.farmer{
+    background-image: url("images/Farmer.PNG");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: none;
+}
+
+.cursor{
+    background-image: url("images/Cursor.PNG");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: none;
+}
+
+.grandma{
+    background-image: url("images/Grandma.PNG");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: none;
+}
+
+.btn:hover{
+    border:2px solid #021a40;
+}
+
+.btn{
+    font-size: 45px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
